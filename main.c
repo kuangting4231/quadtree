@@ -6,6 +6,8 @@
 #include "writeTree.h"
 #include "destroy.h"
 #include "buildTree.h"
+#include "nodeValue.h"
+#include "valueaddchildren.h"
 #include "remove.h"
 
 
@@ -33,13 +35,12 @@ int main( int argc, char **argv )
   // make a tree
  growtree(head);
  growtree(head);
-
+ growtree(head);
 //the following is some command
+  //valueput(head);
 
-  //makeChildren(head->child[1]);
-  //makeChildren(head->child[0]);
-
- removeChildren(head->child[1]);
+  //printdata(head);
+  adapt(head);
 writeTree( head );
 destroyTree(head);
 

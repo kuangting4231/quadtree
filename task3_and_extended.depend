@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1544630637 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\buildtree.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"buildTree.h"
+
+1544578917 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\treestructure.h
+
+1544620370 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\buildtree.h
+
+1544718960 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\destroy.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"destroy.h"
+
+1544578919 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\destroy.h
+
+1544628900 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\nodevalue.c
+	"math.h"
+	"treeStructure.h"
+	"nodeValue.h"
+
+1544578912 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\nodevalue.h
+
+1544621225 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\remove.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"remove.h"
+
+1544621322 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\remove.h
+
+1544727546 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\valueaddchildren.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"buildTree.h"
+	"remove.h"
+	"nodeValue.h"
+	"valueaddchildren.h"
+
+1544670572 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\valueaddchildren.h
+
+1544670161 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\writetree.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"writeTree.h"
+
+1544578878 c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\writetree.h
+
+1544720427 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task3_and_extended\main.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"writeTree.h"
+	"destroy.h"
+	"buildTree.h"
+	"nodeValue.h"
+	"valueaddchildren.h"
+	"remove.h"
+

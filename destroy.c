@@ -10,7 +10,6 @@ void destroyTree(Node* node)
     if(node->child[0]==NULL)
     {
         free(node);
-
     }
 
     else
