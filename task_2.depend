@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1544630637 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\buildtree.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"buildTree.h"
+
+1544578917 c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\treestructure.h
+
+1544620370 c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\buildtree.h
+
+1544621225 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\remove.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"remove.h"
+
+1544621322 c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\remove.h
+
+1544670161 source:c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\writetree.c
+	"stdio.h"
+	"stdlib.h"
+	"math.h"
+	"treeStructure.h"
+	"writeTree.h"
+
+1544578878 c:\users\administrator\desktop\新建文件夹 (3)\project\task_2\writetree.h
+

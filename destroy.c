@@ -22,6 +22,5 @@ void destroyTree(Node* node)
 free(node);
     }
 
-
 return;
 }

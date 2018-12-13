@@ -6,7 +6,7 @@
 #include "writeTree.h"
 #include "destroy.h"
 #include "buildTree.h"
-
+#include "remove.h"
 
 
 
@@ -34,20 +34,12 @@ int main( int argc, char **argv )
  growtree(head);
  growtree(head);
 
-//the following is some other command
-
-
-
+//the following is some command
 
   //makeChildren(head->child[1]);
   //makeChildren(head->child[0]);
 
-
-
-
-
-//head = NULL;
-
+ removeChildren(head->child[1]);
 writeTree( head );
 destroyTree(head);
 
