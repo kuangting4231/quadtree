@@ -2,9 +2,13 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "math.h"
-#include "writeTree.h"
 #include "treeStructure.h"
+#include "writeTree.h"
+#include "destroy.h"
 #include "buildTree.h"
+
+
+
 
 // function definitions
 
@@ -14,63 +18,47 @@
 
 
 
+
 // main
 
-int main( int argc, char **argv ) {
+int main( int argc, char **argv )
+{
 
   Node *head;
+ MAXlevel = 6;
 
   // make the head node
-  head = makeNode( 0.0,0.0, 0 );
+ head = makeNode( 0.0,0.0, 0 );
 
   // make a tree
-  makeChildren( head );
-  makeChildren( head->child[1] );
-  makeChildren(head->child[2]);
+ growtree(head);
+ growtree(head);
 
-  // print the tree for Gnuplot
-  writeTree( head );
+//the following is some other command
+
+
+
+
+  //makeChildren(head->child[1]);
+  //makeChildren(head->child[0]);
+
+
+
+
+
+//head = NULL;
+
+writeTree( head );
+destroyTree(head);
+
 
   return 0;
 }
-void destroyTree(Node** quadtree)
-{
-    int i =0;
-    Node* node = *quadtree;
-    if (NULL==node)
-    {
-        return;
-    }
-    else
-    {
-        for(i=0;i<4;i++)
-        {
-            destroyTree(&node->child[i]);
-        }
-        free(node);
-            node = NULL;
-     }
-   node = NULL;
 
-}
-void removeChildren(Node *parent)
-{int i;
-    for (i=0;i<4;i++)
-{
 
-    if (parent->child[i]== NULL )
-    {
-        for (i=0;i<4;i++)
-        {
-            removeChildren(parent->child[i]);
-        }
-    }
-    else
-    {
-        destroyTree(&parent);
-    }
-}
-}
+
+
+
 
 
 

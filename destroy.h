@@ -1,0 +1,8 @@
+
+
+
+void destroyTree(Node* node);
+
+
+
+

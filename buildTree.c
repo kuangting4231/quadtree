@@ -1,9 +1,10 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "math.h"
-#include "buildTree.h"
-#include "writeTree.h"
 #include "treeStructure.h"
+#include "buildTree.h"
+
+
 
 Node *makeNode( double x, double y, int level ) {
 
@@ -12,7 +13,7 @@ Node *makeNode( double x, double y, int level ) {
   Node *node = (Node *)malloc(sizeof(Node));
 
   node->level = level;
-
+  node->flag = 0;
   node->xy[0] = x;
   node->xy[1] = y;
 
@@ -24,7 +25,7 @@ Node *makeNode( double x, double y, int level ) {
 
 
 void makeChildren( Node *parent ) {
-
+  //int value;
   double x = parent->xy[0];
   double y = parent->xy[1];
 
@@ -39,3 +40,22 @@ void makeChildren( Node *parent ) {
 
   return;
 }
+
+void growtree(Node *head)
+{int i;
+    if (head->level!=MAXlevel)
+    {
+       if(head->child[0]==NULL)
+        makeChildren(head);
+       else
+        {
+            for (i=0;i<4;i++)
+          {
+            growtree(head->child[i]);
+          }
+        }
+    }
+
+return;
+}
+
